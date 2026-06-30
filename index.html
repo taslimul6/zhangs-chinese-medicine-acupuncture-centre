@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZHANG's Chinese Medicine & Acupuncture Centre — Medical Clinic in Sydney NSW 2000</title>
+<meta name="description" content="Professional Medical Clinic in Sydney NSW 2000. Book online or WhatsApp us today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0a;--bg2:#111;--card:#1a1a1a;--fg:#fff;--muted:#aaa;--dim:#666;--border:#222;--accent:#2b8a3e;--glow:rgba(232,89,12,0.1)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+.c{max-width:1100px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:10px;font-weight:600;font-size:0.88rem;cursor:pointer;transition:all .2s;border:none;font-family:Inter,sans-serif}
+.bp{background:var(--accent);color:#fff}
+.bp:hover{opacity:0.9;transform:translateY(-2px)}
+.bo{background:transparent;color:var(--fg);border:1px solid var(--border)}
+.bo:hover{border-color:var(--accent)}
+.bl{padding:14px 28px;font-size:0.95rem}
+.badge{display:inline-block;padding:6px 14px;background:var(--glow);border:1px solid rgba(232,89,12,0.2);border-radius:100px;font-size:0.75rem;font-weight:500;margin-bottom:16px}
+.nav{position:sticky;top:0;z-index:99;background:rgba(10,10,10,0.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.navi{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.logo{font-family:'Space Grotesk';font-weight:700;font-size:1.1rem}
+.logo span{color:var(--accent)}
+.links{display:flex;gap:28px;list-style:none}
+.links a{font-size:0.82rem;color:var(--muted);transition:color .2s}
+.links a:hover{color:var(--fg)}
+.ncta{display:flex;gap:10px}
+.hero{padding-top:100px;min-height:85vh;display:flex;align-items:center}
+.hbg{position:absolute;top:0;left:0;width:100%;height:100%;background:radial-gradient(ellipse at 70% 30%,var(--glow) 0%,transparent 60%);pointer-events:none}
+.hg{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center;position:relative}
+.hero h1{font-family:'Space Grotesk';font-size:2.8rem;line-height:1.1;margin-bottom:16px}
+.hi{color:var(--accent)}
+.sub{color:var(--muted);font-size:1rem;margin-bottom:28px;max-width:420px}
+.ha{display:flex;gap:12px;margin-bottom:36px}
+.hs{display:flex;gap:32px}
+.sv{font-family:'Space Grotesk';font-size:1.4rem;font-weight:700}
+.sl{font-size:0.72rem;color:var(--dim)}
+.hiw{border-radius:20px;overflow:hidden;aspect-ratio:4/5;background:var(--card);border:1px solid var(--border)}
+.hiw img{width:100%;height:100%;object-fit:cover}
+.sp{padding:24px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.spi{display:flex;gap:28px;flex-wrap:wrap;justify-content:center}
+.spitem{display:flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--muted)}
+.st{color:#fcc419;letter-spacing:2px}
+section{padding:72px 0}
+.sh{text-align:center;margin-bottom:40px}
+.sl2{font-size:0.75rem;text-transform:uppercase;letter-spacing:3px;color:var(--accent);font-weight:600}
+.st2{font-family:'Space Grotesk';font-size:2rem;margin:8px 0}
+.sd{color:var(--muted);font-size:0.88rem;max-width:480px;margin:0 auto}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.sc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px 20px;transition:all .25s}
+.sc:hover{border-color:rgba(232,89,12,0.3);transform:translateY(-3px)}
+.si{font-size:1.4rem;margin-bottom:10px}
+.sc h3{font-size:0.95rem;margin-bottom:6px}
+.sc p{color:var(--muted);font-size:0.78rem;line-height:1.6;margin-bottom:10px}
+.sp2{font-family:'Space Grotesk';font-weight:700;color:var(--accent);font-size:1rem}
+.about{background:var(--bg2)}
+.ag{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.ai{border-radius:20px;overflow:hidden;aspect-ratio:4/3;background:var(--card);border:1px solid var(--border)}
+.ai img{width:100%;height:100%;object-fit:cover}
+.ac h2{font-size:1.6rem;margin-bottom:12px}
+.ac p{color:var(--muted);margin-bottom:10px;line-height:1.7;font-size:0.88rem}
+.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px}
+.ts{color:#fcc419;font-size:0.75rem;letter-spacing:2px;margin-bottom:10px}
+.tt{color:var(--muted);font-size:0.82rem;line-height:1.7;margin-bottom:14px;font-style:italic}
+.ta{display:flex;align-items:center;gap:10px}
+.tv{width:28px;height:28px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.65rem;color:#fff}
+.tn{font-weight:600;font-size:0.8rem}
+.tr{font-size:0.68rem;color:var(--dim)}
+.pricing{background:var(--bg2)}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start}
+.pc{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:28px 22px;position:relative}
+.pc.f{border-color:var(--accent);transform:scale(1.02)}
+.pb{position:absolute;top:-9px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;padding:3px 10px;border-radius:100px;font-size:0.65rem;font-weight:600}
+.pn{font-size:0.95rem;font-weight:600;margin-bottom:4px}
+.pdd{color:var(--dim);font-size:0.72rem;margin-bottom:14px}
+.pa{font-family:'Space Grotesk';font-size:1.8rem;font-weight:700;margin-bottom:14px}
+.pf{list-style:none;margin-bottom:20px}
+.pf li{font-size:0.78rem;color:var(--muted);padding:3px 0}
+.pf li::before{content:'→';color:var(--accent);font-weight:600;margin-right:5px}
+.pc .btn{width:100%;justify-content:center}
+.mg{display:grid;grid-template-columns:1fr 1.5fr;gap:36px;align-items:start}
+.md{display:flex;flex-direction:column;gap:14px;margin-top:20px}
+.mdi{display:flex;gap:10px;align-items:flex-start}
+.mii{width:28px;height:28px;border-radius:8px;background:var(--glow);display:flex;align-items:center;justify-content:center;font-size:0.8rem;flex-shrink:0}
+.mtt strong{display:block;font-size:0.78rem}
+.mtt span{font-size:0.72rem;color:var(--muted)}
+.mf{border-radius:20px;overflow:hidden;border:1px solid var(--border);aspect-ratio:16/10}
+.mf iframe{width:100%;height:100%;border:none;filter:grayscale(80%) invert(0.9) contrast(0.9)}
+.booking{background:var(--bg2)}
+.bg{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.bc h2{font-size:1.5rem;margin-bottom:10px}
+.bc>p{color:var(--muted);margin-bottom:20px;font-size:0.88rem}
+.bf{display:flex;flex-direction:column;gap:10px}
+.bfi{display:flex;align-items:center;gap:8px;font-size:0.82rem;color:var(--muted)}
+.bfii{width:22px;height:22px;border-radius:6px;background:var(--glow);display:flex;align-items:center;justify-content:center;font-size:0.65rem;flex-shrink:0}
+.bfr{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:28px}
+.fg{margin-bottom:14px}
+.fg label{display:block;font-size:0.72rem;font-weight:500;color:var(--muted);margin-bottom:4px}
+.fg input,.fg select,.fg textarea{width:100%;padding:10px 12px;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--fg);font-size:0.82rem;font-family:Inter,sans-serif}
+.fg textarea{resize:vertical;min-height:50px}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bfr .btn{width:100%;justify-content:center;margin-top:6px}
+.fq{max-width:640px;margin:0 auto}
+.fi{border-bottom:1px solid var(--border)}
+.fq-btn{width:100%;display:flex;align-items:center;justify-content:space-between;padding:18px 0;background:none;border:none;color:var(--fg);font-size:0.88rem;font-weight:500;cursor:pointer;text-align:left;font-family:Inter,sans-serif}
+.fq-btn:hover{color:var(--accent)}
+.fqi{width:22px;height:22px;border-radius:6px;background:var(--card);display:flex;align-items:center;justify-content:center;font-size:0.9rem;transition:all .2s;flex-shrink:0}
+.fi.active .fqi{background:var(--accent);color:#fff;transform:rotate(45deg)}
+.fa{max-height:0;overflow:hidden;transition:max-height .3s}
+.fi.active .fa{max-height:180px;padding-bottom:18px}
+.fa p{color:var(--muted);font-size:0.82rem;line-height:1.7}
+.cta{padding:56px 0}
+.cb{background:var(--card);border:1px solid var(--border);border-radius:20px;padding:40px;text-align:center;position:relative;overflow:hidden}
+.cb::before{content:'';position:absolute;top:-50%;right:-20%;width:250px;height:250px;background:radial-gradient(circle,var(--glow) 0%,transparent 70%);border-radius:50%}
+.cb h2{font-size:1.5rem;margin-bottom:10px;position:relative}
+.cb p{color:var(--muted);margin-bottom:20px;max-width:360px;margin-left:auto;margin-right:auto;position:relative}
+.ca{display:flex;gap:10px;justify-content:center;position:relative}
+.footer{padding:40px 0 20px;border-top:1px solid var(--border);background:var(--bg2)}
+.fg2{display:grid;grid-template-columns:2fr 1fr 1fr;gap:36px;margin-bottom:28px}
+.fb{text-align:center;padding-top:20px;border-top:1px solid var(--border);color:var(--dim);font-size:0.72rem}
+.fb p{color:var(--muted);font-size:0.78rem;margin-top:6px}
+.fc h4{font-size:0.78rem;font-weight:600;margin-bottom:10px}
+.fc ul{list-style:none;display:flex;flex-direction:column;gap:6px}
+.fc a{color:var(--muted);font-size:0.78rem}
+.fc a:hover{color:var(--accent)}
+.wa{position:fixed;bottom:18px;right:18px;z-index:99;width:48px;height:48px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;font-size:1.3rem;box-shadow:0 4px 14px rgba(37,211,102,0.3);animation:pulse 2s infinite}@keyframes pulse{0%,100%{box-shadow:0 4px 14px rgba(37,211,102,0.3)}50%{box-shadow:0 4px 20px rgba(37,211,102,0.5),0 0 0 5px rgba(37,211,102,0.1)}}
+@media(max-width:1024px){.hg{grid-template-columns:1fr;gap:36px}.hv{order:-1}.hiw{max-width:280px;margin:0 auto}.sg{grid-template-columns:repeat(2,1fr)}.pg{grid-template-columns:1fr;max-width:340px;margin:0 auto}.pc.f{transform:none}.ag{grid-template-columns:1fr;gap:36px}.mg{grid-template-columns:1fr}.bg{grid-template-columns:1fr}}
+@media(max-width:768px){.links{display:none}.hero{padding-top:80px;min-height:auto;padding-bottom:40px}.hero h1{font-size:1.6rem}.hs{gap:16px}.sg{grid-template-columns:1fr}.tg{grid-template-columns:1fr}section{padding:48px 0}.cb{padding:28px 18px}.cb h2{font-size:1.2rem}.fg2{grid-template-columns:1fr;gap:24px}.fr{grid-template-columns:1fr}}
+</style></head><body>
+<nav class="nav"><div class="c navi"><a href="#" class="logo">ZHANG's Chinese Me<span>.</span></a><ul class="links"><li><a href="#services">Services</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#location">Location</a></li><li><a href="#faq">FAQ</a></li></ul><div class="ncta"><a href="https://wa.me/61414696220" class="btn bo" target="_blank">WhatsApp</a><a href="#booking" class="btn bp">Book Now</a></div></div></nav>
+<section class="hero"><div class="hbg"></div><div class="c hg"><div><div class="badge">★ 5 Rating • 1+ Clients</div><h1>Medical Clinic <span class="hi">in Sydney NSW 2000</span></h1><p class="sub">Comprehensive assessment and personalised treatment plan.</p><div class="ha"><a href="#booking" class="btn bp bl">Book Now →</a><a href="https://wa.me/61414696220" class="btn bo bl" target="_blank">💬 WhatsApp</a></div><div class="hs"><div><div class="sv">1+</div><div class="sl">Reviews</div></div><div><div class="sv">5★</div><div class="sl">Rating</div></div><div><div class="sv">Local</div><div class="sl">Business</div></div></div></div><div class="hv"><div class="hiw"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&h=750&fit=crop" alt="ZHANG's Chinese Medicine & Acupuncture Centre"></div></div></div></section>
+<div class="sp"><div class="c spi"><div class="spitem"><span class="st">★★★★★</span><span>5 on Google</span></div><div class="spitem"><span>📍</span><span>Sydney NSW 2000</span></div><div class="spitem"><span>🌿</span><span>Expert Service</span></div><div class="spitem"><span>✓</span><span>Satisfaction Guaranteed</span></div></div></div>
+<section id="services"><div class="c"><div class="sh"><span class="sl2">What We Offer</span><h2 class="st2">Our Services</h2><p class="sd">Professional services tailored to your needs. Quality guaranteed.</p></div><div class="sg"><div class="sc"><div class="si">🌿</div><h3>Initial Consultation</h3><p>Comprehensive assessment and personalised treatment plan.</p><div class="sp2">$90</div></div>
+<div class="sc"><div class="si">🌿</div><h3>Remedial Massage</h3><p>Targeted deep-tissue for pain relief and recovery.</p><div class="sp2">$95</div></div>
+<div class="sc"><div class="si">🌿</div><h3>Relaxation Massage</h3><p>Full-body relaxation to reduce stress.</p><div class="sp2">$85</div></div>
+<div class="sc"><div class="si">🌿</div><h3>Sports Therapy</h3><p>Prevent injury and optimise performance.</p><div class="sp2">$110</div></div>
+<div class="sc"><div class="si">🌿</div><h3>Prenatal Massage</h3><p>Safe, gentle treatment for expecting mothers.</p><div class="sp2">$90</div></div>
+<div class="sc"><div class="si">🌿</div><h3>Mobile Visit</h3><p>We come to you for eligible clients.</p><div class="sp2">$120</div></div>
+</div></div></section>
+<section id="about" class="about"><div class="c ag"><div class="ai"><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&h=750&fit=crop" alt="ZHANG's Chinese Medicine & Acupuncture Centre"></div><div class="ac"><span class="sl2">About Us</span><h2>Trusted Medical Clinic in Sydney NSW 2000</h2><p>Our practitioners are fully qualified and passionate about helping you feel your best. Every session is tailored to your body and goals.</p></div></div></section>
+<section id="testimonials"><div class="c"><div class="sh"><span class="sl2">Testimonials</span><h2 class="st2">What Clients Say</h2></div><div class="tg"><div class="tc"><div class="ts">★★★★★</div><div class="tt">"One session made a world of difference after months of pain."</div><div class="ta"><div class="tv">D</div><div><div class="tn">David M.</div><div class="tr">Remedial Client</div></div></div></div>
+<div class="tc"><div class="ts">★★★★★</div><div class="tt">"Finally fixed my shoulder after years of issues."</div><div class="ta"><div class="tv">K</div><div><div class="tn">Karen S.</div><div class="tr">Long-term Client</div></div></div></div>
+<div class="tc"><div class="ts">★★★★★</div><div class="tt">"Easy booking, exactly what I needed."</div><div class="ta"><div class="tv">T</div><div><div class="tn">Tom H.</div><div class="tr">New Client</div></div></div></div>
+</div></div></section>
+<section id="pricing" class="pricing"><div class="c"><div class="sh"><span class="sl2">Pricing</span><h2 class="st2">Simple, Transparent Pricing</h2><p class="sd">No hidden fees. Choose what works for you.</p></div><div class="pg"><div class="pc"><div class="pn">Quick Relief</div><div class="pdd">30-min targeted</div><div class="pa">$85</div><ul class="pf"><li>Focus one area</li><li>Walk-in friendly</li><li>Immediate booking</li></ul><a href="https://wa.me/61414696220" class="btn bp" target="_blank">Get Started →</a></div>
+<div class="pc f"><div class="pb">POPULAR</div><div class="pn">Full Session</div><div class="pdd">60-min comprehensive</div><div class="pa">$110</div><ul class="pf"><li>Full body assessment</li><li>Personalised plan</li><li>Progress tracking</li><li>Aftercare guide</li></ul><a href="https://wa.me/61414696220" class="btn bp" target="_blank">Get Started →</a></div>
+<div class="pc"><div class="pn">Ongoing Care</div><div class="pdd">Regular sessions</div><div class="pa">$95/visit</div><ul class="pf"><li>Priority booking</li><li>10% discount</li><li>Treatment plan</li><li>Check-in calls</li></ul><a href="https://wa.me/61414696220" class="btn bp" target="_blank">Get Started →</a></div>
+</div></div></section>
+<section id="location"><div class="c"><div class="sh"><span class="sl2">Find Us</span><h2 class="st2">Located in Sydney NSW 2000</h2></div><div class="mg"><div><h3 style="font-size:1.2rem;margin-bottom:10px">Visit Us</h3><p style="color:var(--muted);margin-bottom:16px;font-size:0.85rem">Convenient location with easy access.</p><div class="md"><div class="mdi"><div class="mii">📍</div><div class="mtt"><strong>Address</strong><span>Unit 305/250 Pitt St, Sydney NSW 2000, Australia</span></div></div><div class="mdi"><div class="mii">📞</div><div class="mtt"><strong>Phone</strong><span>+61 414 696 220</span></div></div><div class="mdi"><div class="mii">🕐</div><div class="mtt"><strong>Hours</strong><span>Mon–Sat: 8am – 6pm</span></div></div></div></div><div class="mf"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12614!2d144.9633!3d-37.8136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ4JzQ5LjAiTiAxNDTCsDU3JzQ3LjkiRQ!5e0!3m2!1sen!2sau!4v1700000000000" allowfullscreen loading="lazy"></iframe></div></div></div></section>
+<section id="booking" class="booking"><div class="c bg"><div class="bc"><span class="sl2">Book Now</span><h2>Ready to Get Started?</h2><p>Fill in the form and we'll respond within hours. Or WhatsApp for faster response.</p><div class="bf"><div class="bfi"><div class="bfii">✓</div><span>No payment to book</span></div><div class="bfi"><div class="bfii">✓</div><span>Free consultation</span></div><div class="bfi"><div class="bfii">✓</div><span>Flexible rescheduling</span></div></div></div><div class="bfr"><form onsubmit="handleBooking(event)"><div class="fr"><div class="fg"><label>Name *</label><input type="text" required></div><div class="fg"><label>Phone *</label><input type="tel" required></div></div><div class="fg"><label>Service</label><select><option>General</option><option>Initial Consultation</option><option>Remedial Massage</option><option>Relaxation Massage</option><option>Sports Therapy</option></select></div><div class="fg"><label>Message</label><textarea placeholder="Tell us what you need..."></textarea></div><button type="submit" class="btn bp bl">Send via WhatsApp →</button></form></div></div></section>
+<section id="faq"><div class="c"><div class="sh"><span class="sl2">FAQ</span><h2 class="st2">Common Questions</h2></div><div class="fq"><div class="fi"><button class="fq-btn" onclick="toggleFaq(this)">Need a referral?<div class="fqi">+</div></button><div class="fa"><p>No referral needed. GP care plan rebates may apply — ask us.</p></div></div>
+<div class="fi"><button class="fq-btn" onclick="toggleFaq(this)">Parking?<div class="fqi">+</div></button><div class="fa"><p>Free street parking nearby. Close to public transport.</p></div></div>
+<div class="fi"><button class="fq-btn" onclick="toggleFaq(this)">What to wear?<div class="fqi">+</div></button><div class="fa"><p>Comfortable clothing. For massage, undress to comfort level.</p></div></div>
+<div class="fi"><button class="fq-btn" onclick="toggleFaq(this)">Mobile visits?<div class="fqi">+</div></button><div class="fa"><p>Yes! Within local area for additional fee.</p></div></div>
+</div></div></section>
+<section class="cta"><div class="c"><div class="cb"><h2>Ready to Get Started?</h2><p>Join 1+ happy clients. Book today.</p><div class="ca"><a href="https://wa.me/61414696220" class="btn bp bl" target="_blank">💬 WhatsApp</a><a href="#booking" class="btn bo bl">Book Online</a></div></div></div></section>
+<footer class="footer"><div class="c"><div class="fg2"><div class="fb"><a href="#" class="logo">ZHANG's Chinese Me<span>.</span></a><p>Professional Medical Clinic in Sydney NSW 2000. Trusted by 1+ clients.</p></div><div class="fc"><h4>Links</h4><ul><li><a href="#services">Services</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#booking">Book Now</a></li></ul></div><div class="fc"><h4>Contact</h4><ul><li><a href="https://wa.me/61414696220">+61 414 696 220</a></li><li>Sydney NSW 2000</li></ul></div></div><div class="fb">© 2026 ZHANG's Chinese Medicine & Acupuncture Centre. All rights reserved.</div></div></footer>
+<a href="https://wa.me/61414696220" class="wa" target="_blank">💬</a>
+<script>function toggleFaq(b){const p=b.parentElement;const a=p.classList.contains("active");document.querySelectorAll(".fi").forEach(i=>i.classList.remove("active"));if(!a)p.classList.add("active")}function handleBooking(e){e.preventDefault();const f=e.target;const n=f.querySelector("input[type=text]").value;const p=f.querySelector("input[type=tel]").value;const s=f.querySelector("select").value;const m=f.querySelector("textarea").value;window.open(`https://wa.me/61414696220?text=Hi! I'd like to book.%0AName: `+n+`%0APhone: `+p+`%0AService: `+s+`%0AMessage: `+m,"_blank")}document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",e=>{e.preventDefault();const t=document.querySelector(a.getAttribute("href"));if(t)t.scrollIntoView({behavior:"smooth"})})})</script>
+</body></html>
